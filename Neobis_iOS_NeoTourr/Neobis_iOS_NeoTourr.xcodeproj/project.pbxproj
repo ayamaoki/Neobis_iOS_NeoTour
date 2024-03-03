@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBE4CD152B93C47000A9261D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD142B93C47000A9261D /* AppDelegate.swift */; };
+		DBE4CD172B93C47000A9261D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD162B93C47000A9261D /* SceneDelegate.swift */; };
+		DBE4CD192B93C47000A9261D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD182B93C47000A9261D /* MainViewController.swift */; };
+		DBE4CD1E2B93C47100A9261D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD1D2B93C47100A9261D /* Assets.xcassets */; };
+		DBE4CD212B93C47100A9261D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD1F2B93C47100A9261D /* LaunchScreen.storyboard */; };
+		DBE4CD2A2B93C48C00A9261D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DBE4CD292B93C48C00A9261D /* SnapKit */; };
+		DBE4CD2C2B93C4BC00A9261D /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD2B2B93C4BC00A9261D /* OnboardingViewController.swift */; };
+		DBE4CD492B93C87200A9261D /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD352B93C87200A9261D /* SF-Pro-Display-Thin.otf */; };
+		DBE4CD4A2B93C87200A9261D /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD362B93C87200A9261D /* SF-Pro-Display-SemiboldItalic.otf */; };
+		DBE4CD4B2B93C87200A9261D /* COPYRIGHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD372B93C87200A9261D /* COPYRIGHT.txt */; };
+		DBE4CD4C2B93C87200A9261D /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD382B93C87200A9261D /* SF-Pro-Display-RegularItalic.otf */; };
+		DBE4CD4D2B93C87200A9261D /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD392B93C87200A9261D /* SF-Pro-Display-Light.otf */; };
+		DBE4CD4E2B93C87200A9261D /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD3A2B93C87200A9261D /* SF-Pro-Display-Regular.otf */; };
+		DBE4CD4F2B93C87200A9261D /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD3B2B93C87200A9261D /* SF-Pro-Display-Bold.otf */; };
+		DBE4CD502B93C87200A9261D /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD3C2B93C87200A9261D /* SF-Pro-Display-Medium.otf */; };
+		DBE4CD512B93C87200A9261D /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD3D2B93C87200A9261D /* SF-Pro-Display-Heavy.otf */; };
+		DBE4CD522B93C87200A9261D /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD3E2B93C87200A9261D /* SF-Pro-Display-Semibold.otf */; };
+		DBE4CD532B93C87200A9261D /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD3F2B93C87200A9261D /* SF-Pro-Display-MediumItalic.otf */; };
+		DBE4CD542B93C87200A9261D /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD402B93C87200A9261D /* SF-Pro-Display-HeavyItalic.otf */; };
+		DBE4CD552B93C87200A9261D /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD412B93C87200A9261D /* SF-Pro-Display-Ultralight.otf */; };
+		DBE4CD562B93C87200A9261D /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD422B93C87200A9261D /* SF-Pro-Display-UltralightItalic.otf */; };
+		DBE4CD572B93C87200A9261D /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD432B93C87200A9261D /* SF-Pro-Display-LightItalic.otf */; };
+		DBE4CD582B93C87200A9261D /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD442B93C87200A9261D /* SF-Pro-Display-BlackItalic.otf */; };
+		DBE4CD592B93C87200A9261D /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD452B93C87200A9261D /* SF-Pro-Display-Black.otf */; };
+		DBE4CD5A2B93C87200A9261D /* SFPro_Font_License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD462B93C87200A9261D /* SFPro_Font_License.rtf */; };
+		DBE4CD5B2B93C87200A9261D /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD472B93C87200A9261D /* SF-Pro-Display-ThinItalic.otf */; };
+		DBE4CD5C2B93C87200A9261D /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD482B93C87200A9261D /* SF-Pro-Display-BoldItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBE4CD112B93C47000A9261D /* Neobis_iOS_NeoTourr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_NeoTourr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE4CD142B93C47000A9261D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBE4CD162B93C47000A9261D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBE4CD182B93C47000A9261D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DBE4CD1D2B93C47100A9261D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBE4CD202B93C47100A9261D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBE4CD222B93C47100A9261D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE4CD2B2B93C4BC00A9261D /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		DBE4CD352B93C87200A9261D /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		DBE4CD362B93C87200A9261D /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD372B93C87200A9261D /* COPYRIGHT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT.txt; sourceTree = "<group>"; };
+		DBE4CD382B93C87200A9261D /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD392B93C87200A9261D /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		DBE4CD3A2B93C87200A9261D /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		DBE4CD3B2B93C87200A9261D /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		DBE4CD3C2B93C87200A9261D /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		DBE4CD3D2B93C87200A9261D /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		DBE4CD3E2B93C87200A9261D /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		DBE4CD3F2B93C87200A9261D /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD402B93C87200A9261D /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD412B93C87200A9261D /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		DBE4CD422B93C87200A9261D /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD432B93C87200A9261D /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD442B93C87200A9261D /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD452B93C87200A9261D /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		DBE4CD462B93C87200A9261D /* SFPro_Font_License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = SFPro_Font_License.rtf; sourceTree = "<group>"; };
+		DBE4CD472B93C87200A9261D /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		DBE4CD482B93C87200A9261D /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE4CD0E2B93C47000A9261D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE4CD2A2B93C48C00A9261D /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE4CD082B93C47000A9261D = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD132B93C47000A9261D /* Neobis_iOS_NeoTourr */,
+				DBE4CD122B93C47000A9261D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE4CD122B93C47000A9261D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD112B93C47000A9261D /* Neobis_iOS_NeoTourr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE4CD132B93C47000A9261D /* Neobis_iOS_NeoTourr */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD142B93C47000A9261D /* AppDelegate.swift */,
+				DBE4CD162B93C47000A9261D /* SceneDelegate.swift */,
+				DBE4CD2B2B93C4BC00A9261D /* OnboardingViewController.swift */,
+				DBE4CD182B93C47000A9261D /* MainViewController.swift */,
+				DBE4CD1D2B93C47100A9261D /* Assets.xcassets */,
+				DBE4CD1F2B93C47100A9261D /* LaunchScreen.storyboard */,
+				DBE4CD222B93C47100A9261D /* Info.plist */,
+				DBE4CD342B93C87200A9261D /* Fonts */,
+			);
+			path = Neobis_iOS_NeoTourr;
+			sourceTree = "<group>";
+		};
+		DBE4CD342B93C87200A9261D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD352B93C87200A9261D /* SF-Pro-Display-Thin.otf */,
+				DBE4CD362B93C87200A9261D /* SF-Pro-Display-SemiboldItalic.otf */,
+				DBE4CD372B93C87200A9261D /* COPYRIGHT.txt */,
+				DBE4CD382B93C87200A9261D /* SF-Pro-Display-RegularItalic.otf */,
+				DBE4CD392B93C87200A9261D /* SF-Pro-Display-Light.otf */,
+				DBE4CD3A2B93C87200A9261D /* SF-Pro-Display-Regular.otf */,
+				DBE4CD3B2B93C87200A9261D /* SF-Pro-Display-Bold.otf */,
+				DBE4CD3C2B93C87200A9261D /* SF-Pro-Display-Medium.otf */,
+				DBE4CD3D2B93C87200A9261D /* SF-Pro-Display-Heavy.otf */,
+				DBE4CD3E2B93C87200A9261D /* SF-Pro-Display-Semibold.otf */,
+				DBE4CD3F2B93C87200A9261D /* SF-Pro-Display-MediumItalic.otf */,
+				DBE4CD402B93C87200A9261D /* SF-Pro-Display-HeavyItalic.otf */,
+				DBE4CD412B93C87200A9261D /* SF-Pro-Display-Ultralight.otf */,
+				DBE4CD422B93C87200A9261D /* SF-Pro-Display-UltralightItalic.otf */,
+				DBE4CD432B93C87200A9261D /* SF-Pro-Display-LightItalic.otf */,
+				DBE4CD442B93C87200A9261D /* SF-Pro-Display-BlackItalic.otf */,
+				DBE4CD452B93C87200A9261D /* SF-Pro-Display-Black.otf */,
+				DBE4CD462B93C87200A9261D /* SFPro_Font_License.rtf */,
+				DBE4CD472B93C87200A9261D /* SF-Pro-Display-ThinItalic.otf */,
+				DBE4CD482B93C87200A9261D /* SF-Pro-Display-BoldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE4CD102B93C47000A9261D /* Neobis_iOS_NeoTourr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE4CD252B93C47100A9261D /* Build configuration list for PBXNativeTarget "Neobis_iOS_NeoTourr" */;
+			buildPhases = (
+				DBE4CD0D2B93C47000A9261D /* Sources */,
+				DBE4CD0E2B93C47000A9261D /* Frameworks */,
+				DBE4CD0F2B93C47000A9261D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neobis_iOS_NeoTourr;
+			packageProductDependencies = (
+				DBE4CD292B93C48C00A9261D /* SnapKit */,
+			);
+			productName = Neobis_iOS_NeoTourr;
+			productReference = DBE4CD112B93C47000A9261D /* Neobis_iOS_NeoTourr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE4CD092B93C47000A9261D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DBE4CD102B93C47000A9261D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DBE4CD0C2B93C47000A9261D /* Build configuration list for PBXProject "Neobis_iOS_NeoTourr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBE4CD082B93C47000A9261D;
+			packageReferences = (
+				DBE4CD282B93C48C00A9261D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = DBE4CD122B93C47000A9261D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE4CD102B93C47000A9261D /* Neobis_iOS_NeoTourr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE4CD0F2B93C47000A9261D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE4CD4A2B93C87200A9261D /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				DBE4CD4E2B93C87200A9261D /* SF-Pro-Display-Regular.otf in Resources */,
+				DBE4CD572B93C87200A9261D /* SF-Pro-Display-LightItalic.otf in Resources */,
+				DBE4CD5A2B93C87200A9261D /* SFPro_Font_License.rtf in Resources */,
+				DBE4CD5B2B93C87200A9261D /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				DBE4CD4F2B93C87200A9261D /* SF-Pro-Display-Bold.otf in Resources */,
+				DBE4CD552B93C87200A9261D /* SF-Pro-Display-Ultralight.otf in Resources */,
+				DBE4CD502B93C87200A9261D /* SF-Pro-Display-Medium.otf in Resources */,
+				DBE4CD532B93C87200A9261D /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				DBE4CD212B93C47100A9261D /* LaunchScreen.storyboard in Resources */,
+				DBE4CD562B93C87200A9261D /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				DBE4CD1E2B93C47100A9261D /* Assets.xcassets in Resources */,
+				DBE4CD492B93C87200A9261D /* SF-Pro-Display-Thin.otf in Resources */,
+				DBE4CD4B2B93C87200A9261D /* COPYRIGHT.txt in Resources */,
+				DBE4CD5C2B93C87200A9261D /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				DBE4CD542B93C87200A9261D /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				DBE4CD512B93C87200A9261D /* SF-Pro-Display-Heavy.otf in Resources */,
+				DBE4CD592B93C87200A9261D /* SF-Pro-Display-Black.otf in Resources */,
+				DBE4CD4D2B93C87200A9261D /* SF-Pro-Display-Light.otf in Resources */,
+				DBE4CD582B93C87200A9261D /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				DBE4CD522B93C87200A9261D /* SF-Pro-Display-Semibold.otf in Resources */,
+				DBE4CD4C2B93C87200A9261D /* SF-Pro-Display-RegularItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE4CD0D2B93C47000A9261D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE4CD192B93C47000A9261D /* MainViewController.swift in Sources */,
+				DBE4CD152B93C47000A9261D /* AppDelegate.swift in Sources */,
+				DBE4CD172B93C47000A9261D /* SceneDelegate.swift in Sources */,
+				DBE4CD2C2B93C4BC00A9261D /* OnboardingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBE4CD1F2B93C47100A9261D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE4CD202B93C47100A9261D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE4CD232B93C47100A9261D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBE4CD242B93C47100A9261D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE4CD262B93C47100A9261D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_NeoTourr/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alt.Neobis-iOS-NeoTourr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE4CD272B93C47100A9261D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_NeoTourr/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alt.Neobis-iOS-NeoTourr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE4CD0C2B93C47000A9261D /* Build configuration list for PBXProject "Neobis_iOS_NeoTourr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE4CD232B93C47100A9261D /* Debug */,
+				DBE4CD242B93C47100A9261D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE4CD252B93C47100A9261D /* Build configuration list for PBXNativeTarget "Neobis_iOS_NeoTourr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE4CD262B93C47100A9261D /* Debug */,
+				DBE4CD272B93C47100A9261D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DBE4CD282B93C48C00A9261D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBE4CD292B93C48C00A9261D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBE4CD282B93C48C00A9261D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DBE4CD092B93C47000A9261D /* Project object */;
+}
